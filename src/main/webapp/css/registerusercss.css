@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 Dec 2023, 9:09:24 pm
+    Author     : Name : Nur Hasliza Binti Haslin 
+*/
+
+body {
+    /* background-image: url('img/background1.jpg'); */
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: Arial, sans-serif; /* Add a generic font family for better cross-browser compatibility */
+}
+
+header {
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+
+input {
+    padding: 15px;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+button {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%; /* Adjust the width of the button as needed */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498db; /* Add a hover effect by changing the background color */
+}
+
+a {
+    display: block; /* Make the link a block element to add spacing */
+    margin-top: 10px; /* Add some spacing between the button and the link */
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline; /* Add an underline effect on hover */
+}

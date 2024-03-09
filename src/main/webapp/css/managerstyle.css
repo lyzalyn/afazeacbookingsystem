@@ -1,0 +1,27 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 Jan 2024, 6:36:40 pm
+    Author     : Name : Nur Hasliza Binti Haslin 
+*/
+
+/* Sidebar styles */
+    #sidebar {
+        transition: all 0.3s;
+    }
+
+    #sidebar:hover {
+        background-color: pink; /* Set the background color on hover */
+    }
+
+    .nav-link {
+        color: black; /* Set the default text color */
+        transition: background-color 0.3s;
+    }
+
+    .nav-link:hover {
+        background-color: white; /* Set the background color on hover */
+        color: pink; /* Set the text color on hover */
+    }
